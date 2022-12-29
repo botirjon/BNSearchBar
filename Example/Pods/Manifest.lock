@@ -1,0 +1,16 @@
+PODS:
+  - BNSearchBar (1.0.0)
+
+DEPENDENCIES:
+  - BNSearchBar (from `../`)
+
+EXTERNAL SOURCES:
+  BNSearchBar:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BNSearchBar: 7e6a4b2e8a7f3e315766c1e313148ef19a2420fb
+
+PODFILE CHECKSUM: a3bafc93de9adaac24ddba74e8720e95608bf937
+
+COCOAPODS: 1.11.3

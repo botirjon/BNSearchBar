@@ -7,12 +7,25 @@
 //
 
 import UIKit
+import BNSearchBar
 
 class ViewController: UIViewController {
 
+    private lazy var searchBar: BNSearchBar = {
+        let searchBar = BNSearchBar()
+        searchBar.translatesAutoresizingMaskIntoConstraints = false
+        return searchBar
+    }()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        view.addSubview(searchBar)
+        NSLayoutConstraint.activate([
+            searchBar.centerXAnchor.constraint(equalTo: view.centerXAnchor),
+            searchBar.centerYAnchor.constraint(equalTo: view.centerYAnchor),
+            searchBar.widthAnchor.constraint(equalTo: view.widthAnchor, constant: -2*20)
+        ])
+        
     }
 
     override func didReceiveMemoryWarning() {

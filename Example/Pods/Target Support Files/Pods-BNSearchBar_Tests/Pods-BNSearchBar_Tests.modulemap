@@ -1,0 +1,6 @@
+framework module Pods_BNSearchBar_Tests {
+  umbrella header "Pods-BNSearchBar_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

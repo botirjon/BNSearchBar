@@ -1,0 +1,6 @@
+framework module BNSearchBar {
+  umbrella header "BNSearchBar-umbrella.h"
+
+  export *
+  module * { export * }
+}
