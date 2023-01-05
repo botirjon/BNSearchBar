@@ -18,5 +18,13 @@
   "platforms": {
     "ios": "13.0"
   },
-  "source_files": "BNSearchBar/Classes/**/*"
+  "source_files": "BNSearchBar/Classes/**/*",
+  "resource_bundles": {
+    "BNSearchBar": [
+      "BNSearchBar/Assets/*.png",
+      "BNSearchBar/Assets/*.pdf",
+      "BNSearchBar/Assets/*.xcassets"
+    ]
+  },
+  "resources": "BNSearchBar/Assets/*.xcassets"
 }

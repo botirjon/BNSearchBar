@@ -6,70 +6,89 @@
 	objectVersion = 46;
 	objects = {
 
-/* Begin PBXAggregateTarget section */
-		CF46C682F2BA9E51D64B7B2F7A2A218F /* BNSearchBar */ = {
-			isa = PBXAggregateTarget;
-			buildConfigurationList = 50C2AD7286C5CBD4A382D62C3C6C9891 /* Build configuration list for PBXAggregateTarget "BNSearchBar" */;
-			buildPhases = (
-			);
-			dependencies = (
-			);
-			name = BNSearchBar;
-		};
-/* End PBXAggregateTarget section */
-
 /* Begin PBXBuildFile section */
-		140216CEC8D2D81B4D6B7801E392D11E /* Pods-BNSearchBar_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A69A4E8954DD03EE615E4E3B70763CE /* Pods-BNSearchBar_Tests-dummy.m */; };
-		4038F4409C80EEB9250E694C61D72E6B /* Pods-BNSearchBar_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 75046BA42CA01D3FB95AEF2300A914E6 /* Pods-BNSearchBar_Example-dummy.m */; };
-		4A24BDD104408AB107F391B3C6C76F16 /* Pods-BNSearchBar_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FE86BFD023BE1DC38089336FAC042562 /* Pods-BNSearchBar_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9E094CDEA89000778286F7757AC2AA09 /* Pods-BNSearchBar_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0FC0B764E1F5732BC3DC23D5932242A8 /* Pods-BNSearchBar_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0CBA0BD07BCB194D057DFD8D93A72C03 /* BNSearchBarDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3586D2B849A573745B61AE52471655 /* BNSearchBarDelegate.swift */; };
+		12DCE514100235BE47066B836F810379 /* BNSearchBar-BNSearchBar in Resources */ = {isa = PBXBuildFile; fileRef = D89803D5D80AAA357D3329D667C89DE4 /* BNSearchBar-BNSearchBar */; };
+		140216CEC8D2D81B4D6B7801E392D11E /* Pods-BNSearchBar_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C674041AE283C2F7AC32204DF39CB7D /* Pods-BNSearchBar_Tests-dummy.m */; };
+		2832E9AE623EBF6077C073DA1D347FE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11C825A53D97860DB9267C9EDD2F7B4B /* Assets.xcassets */; };
+		34FE1EFED2B380704081767122FD5BA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11C825A53D97860DB9267C9EDD2F7B4B /* Assets.xcassets */; };
+		4038F4409C80EEB9250E694C61D72E6B /* Pods-BNSearchBar_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ACE3AD7513AAF8CEECE712DB52EF8AAA /* Pods-BNSearchBar_Example-dummy.m */; };
+		4A24BDD104408AB107F391B3C6C76F16 /* Pods-BNSearchBar_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B9F5865CDCE7FF314EAA79DC222D6367 /* Pods-BNSearchBar_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		607D698C2966D064004F2399 /* BNSearchBarButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607D698B2966D064004F2399 /* BNSearchBarButton.swift */; };
+		78CEB2DCC8B2B4356BFB517360D80589 /* BNSearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D247C39D796CE300ED8B2F1F192AD5 /* BNSearchBar.swift */; };
+		9E094CDEA89000778286F7757AC2AA09 /* Pods-BNSearchBar_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BBDF8EE2822FD0BA054208454F91DE37 /* Pods-BNSearchBar_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A30CC7A2538AA4845E6CDE08ECB98118 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		BBDDF22C564045139D32A7D1968ADFA5 /* BNSearchBarTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F278C0DBA2DA57DEC77AE3D2131EAF6 /* BNSearchBarTextField.swift */; };
+		C8D6EC492D9063FA899AB05F619F9DAF /* BNSearchBar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1864FDD9B7E47E3E469D2BD7C918EECD /* BNSearchBar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C8E80BF0C198525730112AC5A4A66B80 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		EA95229C451748A7906CE20FAE0C3C56 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		FCFF914987086F2E818C481B23CFB3A3 /* BNSearchBar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 252798A284F431F9112B6BA6744477D9 /* BNSearchBar-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		5CEAECA9CC438EB20C32A113452E7B9C /* PBXContainerItemProxy */ = {
+		35047396649706F80A928BCEC567278F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = FC1BB24F68B79F98E281CBB2C2781A10;
 			remoteInfo = "Pods-BNSearchBar_Example";
 		};
-		90031AF8007A413F20A89BCE9BD58A6D /* PBXContainerItemProxy */ = {
+		53D12394E8892528D9E9955566391668 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = CF46C682F2BA9E51D64B7B2F7A2A218F;
 			remoteInfo = BNSearchBar;
 		};
+		8F426412004B57909ED71A0B716A1A9F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19C555CC0FA56CC4F8C4A9E87EE3D362;
+			remoteInfo = "BNSearchBar-BNSearchBar";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		08335A0DE5CF8FCB5E45DF5422FE2B58 /* Pods-BNSearchBar_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BNSearchBar_Tests-Info.plist"; sourceTree = "<group>"; };
-		0E53701132506D7446DB67B0972C4A5B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		0FC0B764E1F5732BC3DC23D5932242A8 /* Pods-BNSearchBar_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BNSearchBar_Example-umbrella.h"; sourceTree = "<group>"; };
 		11B5F9CCE2FD223B9006521DE92D76CC /* Pods-BNSearchBar_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-BNSearchBar_Example"; path = Pods_BNSearchBar_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3A8BD9C22B0608C293A5217CB56AA602 /* Pods-BNSearchBar_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BNSearchBar_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		3B6819CE82DE2D21DB68CCFABC5ABEF2 /* Pods-BNSearchBar_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BNSearchBar_Example.release.xcconfig"; sourceTree = "<group>"; };
-		43A3BADA0BEBD0A82C313F648D9B710D /* Pods-BNSearchBar_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BNSearchBar_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		4A69A4E8954DD03EE615E4E3B70763CE /* Pods-BNSearchBar_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BNSearchBar_Tests-dummy.m"; sourceTree = "<group>"; };
-		6879427CA2DDE8BBECAC6A12D9DCFDB3 /* Pods-BNSearchBar_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BNSearchBar_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		6CBB862F3A3968D523B919E5ECDBD69A /* Pods-BNSearchBar_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BNSearchBar_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		11C825A53D97860DB9267C9EDD2F7B4B /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = BNSearchBar/Assets/Assets.xcassets; sourceTree = "<group>"; };
+		16661667A1F4FE82567D77F54ECFDF9B /* Pods-BNSearchBar_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BNSearchBar_Example-Info.plist"; sourceTree = "<group>"; };
+		1864FDD9B7E47E3E469D2BD7C918EECD /* BNSearchBar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BNSearchBar-umbrella.h"; sourceTree = "<group>"; };
+		1ADEBEC0EF10F998378688EE4D12D1C3 /* Pods-BNSearchBar_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BNSearchBar_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		24E31B0FB5F747EF412AB67A3C4649E0 /* Pods-BNSearchBar_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BNSearchBar_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		252798A284F431F9112B6BA6744477D9 /* BNSearchBar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BNSearchBar-dummy.m"; sourceTree = "<group>"; };
+		25D44F37188FF007FFB207089F62CB7E /* Pods-BNSearchBar_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BNSearchBar_Tests-Info.plist"; sourceTree = "<group>"; };
+		266CBBA6F96BED33C40751FDF8D66771 /* BNSearchBar */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BNSearchBar; path = BNSearchBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C674041AE283C2F7AC32204DF39CB7D /* Pods-BNSearchBar_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BNSearchBar_Tests-dummy.m"; sourceTree = "<group>"; };
+		4CDCBD5E51AF432BEC372B5C224AAC5C /* Pods-BNSearchBar_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BNSearchBar_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		607D698B2966D064004F2399 /* BNSearchBarButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BNSearchBarButton.swift; sourceTree = "<group>"; };
+		6385D21E370A2A06B696FE7F495F4EB2 /* BNSearchBar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BNSearchBar.release.xcconfig; sourceTree = "<group>"; };
+		66301EED6CC21ECA0DCE2010BC5EC7F2 /* Pods-BNSearchBar_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BNSearchBar_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		75046BA42CA01D3FB95AEF2300A914E6 /* Pods-BNSearchBar_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BNSearchBar_Example-dummy.m"; sourceTree = "<group>"; };
-		7E8FBD74AFC1FE40E6381CE6C91C55F7 /* BNSearchBar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BNSearchBar.debug.xcconfig; sourceTree = "<group>"; };
-		99D131A93B9906D25F41C4FD09BE3E6F /* Pods-BNSearchBar_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BNSearchBar_Tests.modulemap"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		7B3586D2B849A573745B61AE52471655 /* BNSearchBarDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BNSearchBarDelegate.swift; path = BNSearchBar/Classes/BNSearchBarDelegate.swift; sourceTree = "<group>"; };
+		7BF35334FE68281DA3DC48A28B8ACB37 /* Pods-BNSearchBar_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BNSearchBar_Example.release.xcconfig"; sourceTree = "<group>"; };
+		7F278C0DBA2DA57DEC77AE3D2131EAF6 /* BNSearchBarTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BNSearchBarTextField.swift; path = BNSearchBar/Classes/BNSearchBarTextField.swift; sourceTree = "<group>"; };
+		8722BDA0F3C90F3AE56FC0A1D793901F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		8AD15A214798C0DFEDA0EF6355F72FEB /* Pods-BNSearchBar_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BNSearchBar_Example-frameworks.sh"; sourceTree = "<group>"; };
+		8E4506E94138178FF1340B53E5D11622 /* BNSearchBar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BNSearchBar.debug.xcconfig; sourceTree = "<group>"; };
+		993741488108345AA637C3623F2DDB7D /* Pods-BNSearchBar_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BNSearchBar_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A05D6E718AB1E33DDC3C4BE967F25B1D /* Pods-BNSearchBar_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BNSearchBar_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A211BD119B2EF73A63DF289C1F75DEF7 /* Pods-BNSearchBar_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BNSearchBar_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		A3D9EB4318BC4DE8910EC5BEF21148C3 /* Pods-BNSearchBar_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-BNSearchBar_Tests"; path = Pods_BNSearchBar_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AFBE0A2D4936224E1BD67FFAFC263BB9 /* Pods-BNSearchBar_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BNSearchBar_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		B0DA002FF2F115A555A7F91106EB3DA7 /* Pods-BNSearchBar_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BNSearchBar_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		B0DF8B3FAEA2EE9DBCBA37E8FC4AE44C /* BNSearchBar.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = BNSearchBar.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		DAF6FB85ADF6F00144FEA44CF2F91906 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		DE01B60D778BE8846078F0472E8FD782 /* Pods-BNSearchBar_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BNSearchBar_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		E30163D6161D8C5D1535D0AC084CFECE /* BNSearchBar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BNSearchBar.release.xcconfig; sourceTree = "<group>"; };
-		EB3C20AE3B9AAF376FD31A2980362EA0 /* Pods-BNSearchBar_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BNSearchBar_Example-Info.plist"; sourceTree = "<group>"; };
-		EBB1017F3F74DEEA54C9200F697BF32C /* Pods-BNSearchBar_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BNSearchBar_Example.modulemap"; sourceTree = "<group>"; };
-		FE86BFD023BE1DC38089336FAC042562 /* Pods-BNSearchBar_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BNSearchBar_Tests-umbrella.h"; sourceTree = "<group>"; };
+		A63270CAAD33AAB1E560CEDC27CCEAC2 /* Pods-BNSearchBar_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BNSearchBar_Example.modulemap"; sourceTree = "<group>"; };
+		ACE3AD7513AAF8CEECE712DB52EF8AAA /* Pods-BNSearchBar_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BNSearchBar_Example-dummy.m"; sourceTree = "<group>"; };
+		AF87548690C29A9B521965D790551BB0 /* BNSearchBar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BNSearchBar-prefix.pch"; sourceTree = "<group>"; };
+		B9F5865CDCE7FF314EAA79DC222D6367 /* Pods-BNSearchBar_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BNSearchBar_Tests-umbrella.h"; sourceTree = "<group>"; };
+		BBDF8EE2822FD0BA054208454F91DE37 /* Pods-BNSearchBar_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BNSearchBar_Example-umbrella.h"; sourceTree = "<group>"; };
+		D4D247C39D796CE300ED8B2F1F192AD5 /* BNSearchBar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BNSearchBar.swift; path = BNSearchBar/Classes/BNSearchBar.swift; sourceTree = "<group>"; };
+		D89803D5D80AAA357D3329D667C89DE4 /* BNSearchBar-BNSearchBar */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "BNSearchBar-BNSearchBar"; path = BNSearchBar.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA10B8478EDE140714A36CE06EC698C3 /* ResourceBundle-BNSearchBar-BNSearchBar-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-BNSearchBar-BNSearchBar-Info.plist"; sourceTree = "<group>"; };
+		DEF66663E1BAB2F78B3C01FBDDE670E6 /* BNSearchBar.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = BNSearchBar.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		ED5AB524E74F6B4EBB2B1905CAFED2D9 /* Pods-BNSearchBar_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BNSearchBar_Tests.modulemap"; sourceTree = "<group>"; };
+		EE5848D218D0F59EE73DC2D2A7017A7C /* BNSearchBar-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "BNSearchBar-Info.plist"; sourceTree = "<group>"; };
+		F69FB56E6FCEB1029EE6DCFEE23256B4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		F8FEBEB669672E19C6517CF8A3AB4775 /* BNSearchBar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BNSearchBar.modulemap; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +100,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		4D374378079B24E7024F0836712523DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8E80BF0C198525730112AC5A4A66B80 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A59561FE6157EBC0DF6D583364345036 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -89,39 +116,54 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BEC4B7A163E5F63B1D4D514FFA02C6B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		279BADF92C467800EDE0F285CC59E6AF /* Pods-BNSearchBar_Example */ = {
+		08A5A351269B1C947940F2CF2F262A67 /* Pods-BNSearchBar_Example */ = {
 			isa = PBXGroup;
 			children = (
-				EBB1017F3F74DEEA54C9200F697BF32C /* Pods-BNSearchBar_Example.modulemap */,
-				3A8BD9C22B0608C293A5217CB56AA602 /* Pods-BNSearchBar_Example-acknowledgements.markdown */,
-				AFBE0A2D4936224E1BD67FFAFC263BB9 /* Pods-BNSearchBar_Example-acknowledgements.plist */,
-				75046BA42CA01D3FB95AEF2300A914E6 /* Pods-BNSearchBar_Example-dummy.m */,
-				EB3C20AE3B9AAF376FD31A2980362EA0 /* Pods-BNSearchBar_Example-Info.plist */,
-				0FC0B764E1F5732BC3DC23D5932242A8 /* Pods-BNSearchBar_Example-umbrella.h */,
-				B0DA002FF2F115A555A7F91106EB3DA7 /* Pods-BNSearchBar_Example.debug.xcconfig */,
-				3B6819CE82DE2D21DB68CCFABC5ABEF2 /* Pods-BNSearchBar_Example.release.xcconfig */,
+				A63270CAAD33AAB1E560CEDC27CCEAC2 /* Pods-BNSearchBar_Example.modulemap */,
+				A05D6E718AB1E33DDC3C4BE967F25B1D /* Pods-BNSearchBar_Example-acknowledgements.markdown */,
+				66301EED6CC21ECA0DCE2010BC5EC7F2 /* Pods-BNSearchBar_Example-acknowledgements.plist */,
+				ACE3AD7513AAF8CEECE712DB52EF8AAA /* Pods-BNSearchBar_Example-dummy.m */,
+				8AD15A214798C0DFEDA0EF6355F72FEB /* Pods-BNSearchBar_Example-frameworks.sh */,
+				16661667A1F4FE82567D77F54ECFDF9B /* Pods-BNSearchBar_Example-Info.plist */,
+				BBDF8EE2822FD0BA054208454F91DE37 /* Pods-BNSearchBar_Example-umbrella.h */,
+				993741488108345AA637C3623F2DDB7D /* Pods-BNSearchBar_Example.debug.xcconfig */,
+				7BF35334FE68281DA3DC48A28B8ACB37 /* Pods-BNSearchBar_Example.release.xcconfig */,
 			);
 			name = "Pods-BNSearchBar_Example";
 			path = "Target Support Files/Pods-BNSearchBar_Example";
 			sourceTree = "<group>";
 		};
-		4E50A64024A1555A6ED2481B522FC0A4 /* Pods-BNSearchBar_Tests */ = {
+		4422B39DBA35FE4CD0E9C35C29DF92EB /* BNSearchBar */ = {
 			isa = PBXGroup;
 			children = (
-				99D131A93B9906D25F41C4FD09BE3E6F /* Pods-BNSearchBar_Tests.modulemap */,
-				6879427CA2DDE8BBECAC6A12D9DCFDB3 /* Pods-BNSearchBar_Tests-acknowledgements.markdown */,
-				DE01B60D778BE8846078F0472E8FD782 /* Pods-BNSearchBar_Tests-acknowledgements.plist */,
-				4A69A4E8954DD03EE615E4E3B70763CE /* Pods-BNSearchBar_Tests-dummy.m */,
-				08335A0DE5CF8FCB5E45DF5422FE2B58 /* Pods-BNSearchBar_Tests-Info.plist */,
-				FE86BFD023BE1DC38089336FAC042562 /* Pods-BNSearchBar_Tests-umbrella.h */,
-				43A3BADA0BEBD0A82C313F648D9B710D /* Pods-BNSearchBar_Tests.debug.xcconfig */,
-				6CBB862F3A3968D523B919E5ECDBD69A /* Pods-BNSearchBar_Tests.release.xcconfig */,
+				11C825A53D97860DB9267C9EDD2F7B4B /* Assets.xcassets */,
+				D4D247C39D796CE300ED8B2F1F192AD5 /* BNSearchBar.swift */,
+				607D698B2966D064004F2399 /* BNSearchBarButton.swift */,
+				7B3586D2B849A573745B61AE52471655 /* BNSearchBarDelegate.swift */,
+				7F278C0DBA2DA57DEC77AE3D2131EAF6 /* BNSearchBarTextField.swift */,
+				D47EF64C0A5FCCE26992F3F2C2BEA89C /* Pod */,
+				F554CC91DA0F6529B1F7BD37734D5B48 /* Support Files */,
 			);
-			name = "Pods-BNSearchBar_Tests";
-			path = "Target Support Files/Pods-BNSearchBar_Tests";
+			name = BNSearchBar;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		4C4754F59F829353E21D7B3C1988769B /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4422B39DBA35FE4CD0E9C35C29DF92EB /* BNSearchBar */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
@@ -132,52 +174,39 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		628B9111A1BBCD06E6F240287B1201FE /* Targets Support Files */ = {
+		AA83E11150E6315528A9D004E2D21A4A /* Pods-BNSearchBar_Tests */ = {
 			isa = PBXGroup;
 			children = (
-				279BADF92C467800EDE0F285CC59E6AF /* Pods-BNSearchBar_Example */,
-				4E50A64024A1555A6ED2481B522FC0A4 /* Pods-BNSearchBar_Tests */,
+				ED5AB524E74F6B4EBB2B1905CAFED2D9 /* Pods-BNSearchBar_Tests.modulemap */,
+				4CDCBD5E51AF432BEC372B5C224AAC5C /* Pods-BNSearchBar_Tests-acknowledgements.markdown */,
+				1ADEBEC0EF10F998378688EE4D12D1C3 /* Pods-BNSearchBar_Tests-acknowledgements.plist */,
+				3C674041AE283C2F7AC32204DF39CB7D /* Pods-BNSearchBar_Tests-dummy.m */,
+				25D44F37188FF007FFB207089F62CB7E /* Pods-BNSearchBar_Tests-Info.plist */,
+				B9F5865CDCE7FF314EAA79DC222D6367 /* Pods-BNSearchBar_Tests-umbrella.h */,
+				A211BD119B2EF73A63DF289C1F75DEF7 /* Pods-BNSearchBar_Tests.debug.xcconfig */,
+				24E31B0FB5F747EF412AB67A3C4649E0 /* Pods-BNSearchBar_Tests.release.xcconfig */,
+			);
+			name = "Pods-BNSearchBar_Tests";
+			path = "Target Support Files/Pods-BNSearchBar_Tests";
+			sourceTree = "<group>";
+		};
+		BB86DD9BDA53C55DDB59EACAD4BD4879 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				08A5A351269B1C947940F2CF2F262A67 /* Pods-BNSearchBar_Example */,
+				AA83E11150E6315528A9D004E2D21A4A /* Pods-BNSearchBar_Tests */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		7A71E953BA1668508B20E5F6D6100FB6 /* BNSearchBar */ = {
-			isa = PBXGroup;
-			children = (
-				EC9536B3D2B270739CB3F99A8E1F240A /* Pod */,
-				B15C582366750E5563A7A176EBAA1399 /* Support Files */,
-			);
-			name = BNSearchBar;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		8AC58573A1D2F070371E186276C78220 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				11B5F9CCE2FD223B9006521DE92D76CC /* Pods-BNSearchBar_Example */,
-				A3D9EB4318BC4DE8910EC5BEF21148C3 /* Pods-BNSearchBar_Tests */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		B15C582366750E5563A7A176EBAA1399 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				7E8FBD74AFC1FE40E6381CE6C91C55F7 /* BNSearchBar.debug.xcconfig */,
-				E30163D6161D8C5D1535D0AC084CFECE /* BNSearchBar.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/BNSearchBar";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				F30703DEEB07F67DB1F222D070DC5BF5 /* Development Pods */,
+				4C4754F59F829353E21D7B3C1988769B /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				8AC58573A1D2F070371E186276C78220 /* Products */,
-				628B9111A1BBCD06E6F240287B1201FE /* Targets Support Files */,
+				F5B6943BD54E276A7BB34E13A4B215D3 /* Products */,
+				BB86DD9BDA53C55DDB59EACAD4BD4879 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -189,22 +218,41 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		EC9536B3D2B270739CB3F99A8E1F240A /* Pod */ = {
+		D47EF64C0A5FCCE26992F3F2C2BEA89C /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				B0DF8B3FAEA2EE9DBCBA37E8FC4AE44C /* BNSearchBar.podspec */,
-				DAF6FB85ADF6F00144FEA44CF2F91906 /* LICENSE */,
-				0E53701132506D7446DB67B0972C4A5B /* README.md */,
+				DEF66663E1BAB2F78B3C01FBDDE670E6 /* BNSearchBar.podspec */,
+				F69FB56E6FCEB1029EE6DCFEE23256B4 /* LICENSE */,
+				8722BDA0F3C90F3AE56FC0A1D793901F /* README.md */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
 		};
-		F30703DEEB07F67DB1F222D070DC5BF5 /* Development Pods */ = {
+		F554CC91DA0F6529B1F7BD37734D5B48 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				7A71E953BA1668508B20E5F6D6100FB6 /* BNSearchBar */,
+				F8FEBEB669672E19C6517CF8A3AB4775 /* BNSearchBar.modulemap */,
+				252798A284F431F9112B6BA6744477D9 /* BNSearchBar-dummy.m */,
+				EE5848D218D0F59EE73DC2D2A7017A7C /* BNSearchBar-Info.plist */,
+				AF87548690C29A9B521965D790551BB0 /* BNSearchBar-prefix.pch */,
+				1864FDD9B7E47E3E469D2BD7C918EECD /* BNSearchBar-umbrella.h */,
+				8E4506E94138178FF1340B53E5D11622 /* BNSearchBar.debug.xcconfig */,
+				6385D21E370A2A06B696FE7F495F4EB2 /* BNSearchBar.release.xcconfig */,
+				DA10B8478EDE140714A36CE06EC698C3 /* ResourceBundle-BNSearchBar-BNSearchBar-Info.plist */,
 			);
-			name = "Development Pods";
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/BNSearchBar";
+			sourceTree = "<group>";
+		};
+		F5B6943BD54E276A7BB34E13A4B215D3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				266CBBA6F96BED33C40751FDF8D66771 /* BNSearchBar */,
+				D89803D5D80AAA357D3329D667C89DE4 /* BNSearchBar-BNSearchBar */,
+				11B5F9CCE2FD223B9006521DE92D76CC /* Pods-BNSearchBar_Example */,
+				A3D9EB4318BC4DE8910EC5BEF21148C3 /* Pods-BNSearchBar_Tests */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -226,9 +274,34 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EDC0404B881C2BF4D6D2465F51F3B204 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8D6EC492D9063FA899AB05F619F9DAF /* BNSearchBar-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		19C555CC0FA56CC4F8C4A9E87EE3D362 /* BNSearchBar-BNSearchBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 647D7D5645F3F5B007771CD51EFE6745 /* Build configuration list for PBXNativeTarget "BNSearchBar-BNSearchBar" */;
+			buildPhases = (
+				318CA51448A43ED08A0CCBBD51915F4F /* Sources */,
+				BEC4B7A163E5F63B1D4D514FFA02C6B7 /* Frameworks */,
+				BD3884550C79A46FCC221D02C269D36A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BNSearchBar-BNSearchBar";
+			productName = BNSearchBar;
+			productReference = D89803D5D80AAA357D3329D667C89DE4 /* BNSearchBar-BNSearchBar */;
+			productType = "com.apple.product-type.bundle";
+		};
 		1BC05D247F7630F4BAC7BBA7DA21660D /* Pods-BNSearchBar_Tests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 12322BC1855C0D28E8419984F7AB68AA /* Build configuration list for PBXNativeTarget "Pods-BNSearchBar_Tests" */;
@@ -241,11 +314,30 @@
 			buildRules = (
 			);
 			dependencies = (
-				795626A8BE249E19DA31E0476CC20318 /* PBXTargetDependency */,
+				56ACEB8EAEF4305FD9E09C416F6AC3B7 /* PBXTargetDependency */,
 			);
 			name = "Pods-BNSearchBar_Tests";
 			productName = Pods_BNSearchBar_Tests;
 			productReference = A3D9EB4318BC4DE8910EC5BEF21148C3 /* Pods-BNSearchBar_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+		CF46C682F2BA9E51D64B7B2F7A2A218F /* BNSearchBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86677F20DCB63B737DDD0501F2A65C7E /* Build configuration list for PBXNativeTarget "BNSearchBar" */;
+			buildPhases = (
+				EDC0404B881C2BF4D6D2465F51F3B204 /* Headers */,
+				D850F105E3D6C914E0FB3C19E2570B07 /* Sources */,
+				4D374378079B24E7024F0836712523DF /* Frameworks */,
+				419120893058CD98F67C301A781A9621 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49ACDF090207E356493ADCBCA2DA0C3F /* PBXTargetDependency */,
+			);
+			name = BNSearchBar;
+			productName = BNSearchBar;
+			productReference = 266CBBA6F96BED33C40751FDF8D66771 /* BNSearchBar */;
 			productType = "com.apple.product-type.framework";
 		};
 		FC1BB24F68B79F98E281CBB2C2781A10 /* Pods-BNSearchBar_Example */ = {
@@ -260,7 +352,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				BCA81DD5A79E54F55C2A234D88556A7E /* PBXTargetDependency */,
+				8D1D1E757F655ABCD28B1EF1522E1EEE /* PBXTargetDependency */,
 			);
 			name = "Pods-BNSearchBar_Example";
 			productName = Pods_BNSearchBar_Example;
@@ -285,11 +377,12 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 8AC58573A1D2F070371E186276C78220 /* Products */;
+			productRefGroup = F5B6943BD54E276A7BB34E13A4B215D3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				CF46C682F2BA9E51D64B7B2F7A2A218F /* BNSearchBar */,
+				19C555CC0FA56CC4F8C4A9E87EE3D362 /* BNSearchBar-BNSearchBar */,
 				FC1BB24F68B79F98E281CBB2C2781A10 /* Pods-BNSearchBar_Example */,
 				1BC05D247F7630F4BAC7BBA7DA21660D /* Pods-BNSearchBar_Tests */,
 			);
@@ -304,6 +397,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		419120893058CD98F67C301A781A9621 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2832E9AE623EBF6077C073DA1D347FE1 /* Assets.xcassets in Resources */,
+				12DCE514100235BE47066B836F810379 /* BNSearchBar-BNSearchBar in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		973EBFA6A5237382803C8B268D64D4D1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -311,9 +413,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BD3884550C79A46FCC221D02C269D36A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34FE1EFED2B380704081767122FD5BA3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		318CA51448A43ED08A0CCBBD51915F4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9031C0517C32065991A791DFCC340945 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -330,37 +447,136 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D850F105E3D6C914E0FB3C19E2570B07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78CEB2DCC8B2B4356BFB517360D80589 /* BNSearchBar.swift in Sources */,
+				FCFF914987086F2E818C481B23CFB3A3 /* BNSearchBar-dummy.m in Sources */,
+				607D698C2966D064004F2399 /* BNSearchBarButton.swift in Sources */,
+				0CBA0BD07BCB194D057DFD8D93A72C03 /* BNSearchBarDelegate.swift in Sources */,
+				BBDDF22C564045139D32A7D1968ADFA5 /* BNSearchBarTextField.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		795626A8BE249E19DA31E0476CC20318 /* PBXTargetDependency */ = {
+		49ACDF090207E356493ADCBCA2DA0C3F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "BNSearchBar-BNSearchBar";
+			target = 19C555CC0FA56CC4F8C4A9E87EE3D362 /* BNSearchBar-BNSearchBar */;
+			targetProxy = 8F426412004B57909ED71A0B716A1A9F /* PBXContainerItemProxy */;
+		};
+		56ACEB8EAEF4305FD9E09C416F6AC3B7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-BNSearchBar_Example";
 			target = FC1BB24F68B79F98E281CBB2C2781A10 /* Pods-BNSearchBar_Example */;
-			targetProxy = 5CEAECA9CC438EB20C32A113452E7B9C /* PBXContainerItemProxy */;
+			targetProxy = 35047396649706F80A928BCEC567278F /* PBXContainerItemProxy */;
 		};
-		BCA81DD5A79E54F55C2A234D88556A7E /* PBXTargetDependency */ = {
+		8D1D1E757F655ABCD28B1EF1522E1EEE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = BNSearchBar;
 			target = CF46C682F2BA9E51D64B7B2F7A2A218F /* BNSearchBar */;
-			targetProxy = 90031AF8007A413F20A89BCE9BD58A6D /* PBXContainerItemProxy */;
+			targetProxy = 53D12394E8892528D9E9955566391668 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		752A15BA9B7D95A73A5ECABCCB5A338D /* Release */ = {
+		26E3C43581A9754B631E101CED2368DF /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E30163D6161D8C5D1535D0AC084CFECE /* BNSearchBar.release.xcconfig */;
+			baseConfigurationReference = 6385D21E370A2A06B696FE7F495F4EB2 /* BNSearchBar.release.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BNSearchBar/BNSearchBar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BNSearchBar/BNSearchBar-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BNSearchBar/BNSearchBar.modulemap";
+				PRODUCT_MODULE_NAME = BNSearchBar;
+				PRODUCT_NAME = BNSearchBar;
 				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		321757B7C76844068A7E0CCC62A19C4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E4506E94138178FF1340B53E5D11622 /* BNSearchBar.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BNSearchBar/BNSearchBar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BNSearchBar/BNSearchBar-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BNSearchBar/BNSearchBar.modulemap";
+				PRODUCT_MODULE_NAME = BNSearchBar;
+				PRODUCT_NAME = BNSearchBar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		368C5CBB66B73661932A9AF59CB7CDCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E4506E94138178FF1340B53E5D11622 /* BNSearchBar.debug.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/BNSearchBar";
+				IBSC_MODULE = BNSearchBar;
+				INFOPLIST_FILE = "Target Support Files/BNSearchBar/ResourceBundle-BNSearchBar-BNSearchBar-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_NAME = BNSearchBar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		74A21C55D0CE49A885BD6A9FF52769FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6385D21E370A2A06B696FE7F495F4EB2 /* BNSearchBar.release.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/BNSearchBar";
+				IBSC_MODULE = BNSearchBar;
+				INFOPLIST_FILE = "Target Support Files/BNSearchBar/ResourceBundle-BNSearchBar-BNSearchBar-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_NAME = BNSearchBar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Release;
 		};
@@ -485,8 +701,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -494,7 +709,7 @@
 		};
 		A3EFD744DE09DF41BC75FD54CB4FF9AF /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3B6819CE82DE2D21DB68CCFABC5ABEF2 /* Pods-BNSearchBar_Example.release.xcconfig */;
+			baseConfigurationReference = 7BF35334FE68281DA3DC48A28B8ACB37 /* Pods-BNSearchBar_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
@@ -529,7 +744,7 @@
 		};
 		A583509A406236B4E60204DDB7A86797 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6CBB862F3A3968D523B919E5ECDBD69A /* Pods-BNSearchBar_Tests.release.xcconfig */;
+			baseConfigurationReference = 24E31B0FB5F747EF412AB67A3C4649E0 /* Pods-BNSearchBar_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
@@ -562,24 +777,9 @@
 			};
 			name = Release;
 		};
-		B50877BCCD8194693C3948458BE3B20C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7E8FBD74AFC1FE40E6381CE6C91C55F7 /* BNSearchBar.debug.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
 		DB5A965FE854DDA4D052454FFCC25D14 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 43A3BADA0BEBD0A82C313F648D9B710D /* Pods-BNSearchBar_Tests.debug.xcconfig */;
+			baseConfigurationReference = A211BD119B2EF73A63DF289C1F75DEF7 /* Pods-BNSearchBar_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
@@ -613,7 +813,7 @@
 		};
 		F1A9DC76C459ACC1511E95966EA6D517 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B0DA002FF2F115A555A7F91106EB3DA7 /* Pods-BNSearchBar_Example.debug.xcconfig */;
+			baseConfigurationReference = 993741488108345AA637C3623F2DDB7D /* Pods-BNSearchBar_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
@@ -666,11 +866,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		50C2AD7286C5CBD4A382D62C3C6C9891 /* Build configuration list for PBXAggregateTarget "BNSearchBar" */ = {
+		647D7D5645F3F5B007771CD51EFE6745 /* Build configuration list for PBXNativeTarget "BNSearchBar-BNSearchBar" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B50877BCCD8194693C3948458BE3B20C /* Debug */,
-				752A15BA9B7D95A73A5ECABCCB5A338D /* Release */,
+				368C5CBB66B73661932A9AF59CB7CDCE /* Debug */,
+				74A21C55D0CE49A885BD6A9FF52769FA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -680,6 +880,15 @@
 			buildConfigurations = (
 				F1A9DC76C459ACC1511E95966EA6D517 /* Debug */,
 				A3EFD744DE09DF41BC75FD54CB4FF9AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86677F20DCB63B737DDD0501F2A65C7E /* Build configuration list for PBXNativeTarget "BNSearchBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				321757B7C76844068A7E0CCC62A19C4E /* Debug */,
+				26E3C43581A9754B631E101CED2368DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

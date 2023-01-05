@@ -32,9 +32,11 @@ A customizable search bar
 
   s.source_files = 'BNSearchBar/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'BNSearchBar' => ['BNSearchBar/Assets/*.png']
-  # }
+  s.resource_bundles = {
+    'BNSearchBar' => ['BNSearchBar/Assets/*.png', 'BNSearchBar/Assets/*.pdf', 'BNSearchBar/Assets/*.xcassets']
+  }
+  
+  s.resources = "BNSearchBar/Assets/*.xcassets"
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
