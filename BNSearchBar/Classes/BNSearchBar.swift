@@ -157,7 +157,7 @@ open class BNSearchBar: UIControl {
         self.cancelButton.tintColor = self.tintColor
     }
     
-    private var rightViewMode: UITextFieldViewMode {
+    private var rightViewMode: UITextField.ViewMode {
         let text = self.text ?? ""
         return text.isEmpty ? .never : .always
     }
@@ -192,6 +192,7 @@ open class BNSearchBar: UIControl {
     @objc private func editingChanged(_ sender: BNSearchBarTextField) {
         let text = self.text ?? ""
         self.delegate?.searchBar(self, textDidChange: text)
+        self.sendActions(for: .editingChanged)
         self.updateRightViewVisibility()
     }
     
@@ -274,6 +275,7 @@ public extension BNSearchBar {
         set {
             searchTextField.text = newValue
             updateRightViewVisibility()
+            self.delegate?.searchBar(self, textDidChange: newValue ?? "")
         }
         get {
             searchTextField.text

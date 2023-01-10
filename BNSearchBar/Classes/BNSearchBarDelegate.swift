@@ -10,39 +10,77 @@ import Foundation
 public protocol BNSearchBarDelegate {
     
     
-    @available(iOS 2.0, *)
+    
     func searchBarShouldBeginEditing(_ searchBar: BNSearchBar) -> Bool // return NO to not become first responder
     
-    @available(iOS 2.0, *)
+    
     func searchBarTextDidBeginEditing(_ searchBar: BNSearchBar) // called when text starts editing
     
-    @available(iOS 2.0, *)
+    
     func searchBarShouldEndEditing(_ searchBar: BNSearchBar) -> Bool // return NO to not resign first responder
     
-    @available(iOS 2.0, *)
+    
     func searchBarTextDidEndEditing(_ searchBar: BNSearchBar) // called when text ends editing
     
-    @available(iOS 2.0, *)
+    
     func searchBar(_ searchBar: BNSearchBar, textDidChange searchText: String) // called when text changes (including clear)
     
-    @available(iOS 3.0, *)
+    
     func searchBar(_ searchBar: BNSearchBar, shouldChangeTextIn range: NSRange, replacementText text: String) -> Bool // called before text changes
     
     
-    @available(iOS 2.0, *)
+    
     func searchBarSearchButtonClicked(_ searchBar: BNSearchBar) // called when keyboard search button pressed
     
-    @available(iOS 2.0, *)
+    
     func searchBarBookmarkButtonClicked(_ searchBar: BNSearchBar) // called when bookmark button pressed
     
-    @available(iOS 2.0, *)
+    
     func searchBarCancelButtonClicked(_ searchBar: BNSearchBar) // called when cancel button pressed
     
-    @available(iOS 3.2, *)
+    
     func searchBarResultsListButtonClicked(_ searchBar: BNSearchBar) // called when search results button pressed
     
     
-    @available(iOS 3.0, *)
+    
     func searchBar(_ searchBar: BNSearchBar, selectedScopeButtonIndexDidChange selectedScope: Int)
 }
 
+public extension BNSearchBarDelegate {
+    
+    
+    
+    func searchBarShouldBeginEditing(_ searchBar: BNSearchBar) -> Bool { true }
+    
+    
+    func searchBarTextDidBeginEditing(_ searchBar: BNSearchBar) {}
+    
+    
+    func searchBarShouldEndEditing(_ searchBar: BNSearchBar) -> Bool { true }
+    
+    
+    func searchBarTextDidEndEditing(_ searchBar: BNSearchBar) {}
+    
+    
+    func searchBar(_ searchBar: BNSearchBar, textDidChange searchText: String) {}
+    
+    
+    func searchBar(_ searchBar: BNSearchBar, shouldChangeTextIn range: NSRange, replacementText text: String) -> Bool {true}
+    
+    
+    
+    func searchBarSearchButtonClicked(_ searchBar: BNSearchBar) {}
+    
+    
+    func searchBarBookmarkButtonClicked(_ searchBar: BNSearchBar) {}
+    
+    
+    func searchBarCancelButtonClicked(_ searchBar: BNSearchBar) {}
+    
+    
+    func searchBarResultsListButtonClicked(_ searchBar: BNSearchBar) {}
+    
+    
+    
+    func searchBar(_ searchBar: BNSearchBar, selectedScopeButtonIndexDidChange selectedScope: Int) {}
+}
