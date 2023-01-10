@@ -21,27 +21,28 @@ class ViewController: UIViewController {
         return stackView
     }()
     
-    private lazy var uiSearchBar: UISearchBar = {
-        let searchBar = UISearchBar()
-        searchBar.placeholder = "Search"
-        searchBar.translatesAutoresizingMaskIntoConstraints = false
-        searchBar.showsCancelButton = true
-//        searchBar.showsBookmarkButton = true
-//        searchBar.showsScopeBar = true
-//        searchBar.showsSearchResultsButton = true
-        return searchBar
-    }()
-    
     private lazy var searchBar: BNSearchBar = {
         let searchBar = BNSearchBar()
         searchBar.translatesAutoresizingMaskIntoConstraints = false
         searchBar.placeholder = "Search"
+        searchBar.delegate = self
         return searchBar
     }()
     
+    private var showsCancelButton: Bool = false {
+        didSet {
+            searchBar.setShowsCancelButton(showsCancelButton, animated: true)
+            button.setTitle(cancelButtonTitle, for: .normal)
+        }
+    }
+    
+    private var cancelButtonTitle: String {
+        showsCancelButton ? "Hide cancel button" : "Show cancel button"
+    }
+    
     private lazy var button: UIButton = {
         let button = UIButton()
-        button.setTitle("Toggle", for: .normal)
+        button.setTitle(cancelButtonTitle, for: .normal)
         button.setTitleColor(.red, for: .normal)
         button.addTarget(self, action: #selector(didTapToggle), for: .touchUpInside)
         return button
@@ -57,7 +58,6 @@ class ViewController: UIViewController {
         ])
         
         stackView.addArrangedSubview(button)
-        stackView.addArrangedSubview(uiSearchBar)
         stackView.addArrangedSubview(searchBar)
         
         stackView.arrangedSubviews.forEach { view in
@@ -73,11 +73,59 @@ class ViewController: UIViewController {
     }
 
     @objc private func didTapToggle() {
-        searchBar.setShowsCancelButton(!searchBar.showsCancelButton, animated: true)
+        showsCancelButton.toggle()
     }
     
 }
 
-extension ViewController: UISearchBarDelegate {
+extension ViewController: BNSearchBarDelegate {
+    func searchBarShouldBeginEditing(_ searchBar: BNSearchBar) -> Bool { true }
     
+    
+    func searchBarTextDidBeginEditing(_ searchBar: BNSearchBar) {
+        print("\(#function)")
+    }
+    
+    
+    func searchBarShouldEndEditing(_ searchBar: BNSearchBar) -> Bool { true }
+    
+    
+    func searchBarTextDidEndEditing(_ searchBar: BNSearchBar) {
+        print("\(#function)")
+    }
+    
+    
+    func searchBar(_ searchBar: BNSearchBar, textDidChange searchText: String) {
+        print("\(#function)", searchText)
+    }
+    
+    
+    func searchBar(_ searchBar: BNSearchBar, shouldChangeTextIn range: NSRange, replacementText text: String) -> Bool {true}
+    
+    
+    
+    func searchBarSearchButtonClicked(_ searchBar: BNSearchBar) {
+        print("\(#function)")
+    }
+    
+    
+    func searchBarBookmarkButtonClicked(_ searchBar: BNSearchBar) {
+        print("\(#function)")
+    }
+    
+    
+    func searchBarCancelButtonClicked(_ searchBar: BNSearchBar) {
+        print("\(#function)")
+    }
+    
+    
+    func searchBarResultsListButtonClicked(_ searchBar: BNSearchBar) {
+        print("\(#function)")
+    }
+    
+    
+    
+    func searchBar(_ searchBar: BNSearchBar, selectedScopeButtonIndexDidChange selectedScope: Int) {
+        print("\(#function)")
+    }
 }
