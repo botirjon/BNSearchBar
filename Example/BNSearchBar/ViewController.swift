@@ -22,10 +22,22 @@ class ViewController: UIViewController {
     }()
     
     private lazy var searchBar: BNSearchBar = {
+//        let searchBar = BNSearchBar()
+//        searchBar.translatesAutoresizingMaskIntoConstraints = false
+//        searchBar.placeholder = "Search"
+//        searchBar.delegate = self
+//        return searchBar
+        
         let searchBar = BNSearchBar()
-        searchBar.translatesAutoresizingMaskIntoConstraints = false
+        searchBar.tintColor = .green
+        searchBar.placeholderColor = .red
+        searchBar.backgroundColor = .orange
         searchBar.placeholder = "Search"
-        searchBar.delegate = self
+        
+        searchBar.layer.cornerRadius = 12
+        searchBar.textColor = .blue
+         
+        searchBar.font = .systemFont(ofSize: 16, weight: .medium)
         return searchBar
     }()
     
@@ -50,6 +62,12 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        view.window?.overrideUserInterfaceStyle = .light
+        
+        view.backgroundColor = .init(dynamicProvider: { traitCollection in
+            return traitCollection.userInterfaceStyle == .dark ? .init(red: 39, green: 38, blue: 43, alpha: 1) : .init(red: 245, green: 247, blue: 246, alpha: 1)
+        })
+        
         view.addSubview(stackView)
         NSLayoutConstraint.activate([
             stackView.centerXAnchor.constraint(equalTo: view.centerXAnchor),
